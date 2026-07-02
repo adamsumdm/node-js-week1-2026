@@ -60,9 +60,6 @@ function filterVIP(members) {
  *   sumCredits([]);                                  // 0
  */
 function sumCredits(members) {
-  console.log("test begin...");
-  console.log(members);
-  console.log("...test finish");
   // TODO: 實作此函式
   // 提示：用 reduce，初始值給 0
   return members.reduce((acc, cur) => acc + (cur.credits || 0), 0);
