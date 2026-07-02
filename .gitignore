@@ -3,7 +3,6 @@ node_modules/
 *.log
 .DS_Store
 coverage/
-package-lock.json
 
 # 老師端文件（不進學生 repo）
 grading.md
